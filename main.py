@@ -5,6 +5,12 @@ from track_torrent import IknowYourDownload
 
 def main():
 
+	#By default, it will return the torrent tracker of your own ISP IP 
+	#if there is no IP address.
+	#
+	#If you do $Terminal>python main.py aaa.bbb.ccc.ddd
+	#It will return the torrent details of the given IP address.
+
 	ip_address = None
 	
 	if len(sys.argv) > 2:
