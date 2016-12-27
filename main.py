@@ -13,7 +13,7 @@ def main():
 
 	ip_address = None
 	
-	if len(sys.argv) > 2:
+	if len(sys.argv) >= 2:
 
 		if re.match(r"\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}", sys.argv[1]):
 	
